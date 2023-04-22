@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>JOKEMPO - Divirta-se</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset_css.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header class="cabecalho">
+		<h1 class="titulo">JOKEMPO</h1>
+		<h2 class="subtitulo">Quem será o vencedor?</h2>
+	</header>
+	<main class="batalha">
+		<section class="player">
+			<h3 class="texto_player">Escolha a arma do Player 1</h3>
+			<ul class="lista_player">
+				<li class="arma_lista"><button class="arma_botao" id="pedraP1" value="1">Pedra</button></li>
+				<li class="arma_lista"><button class="arma_botao" id="papelP1" value="2">Papel</button></li>
+				<li class="arma_lista"><button class="arma_botao" id="tesouraP1" value="3">Tesoura</button></li>
+			</ul>
+		</section>
+
+		<section class="player">
+			<h3 class="texto_player">Escolha a arma do Player 2</h3>
+			<ul class="lista_player">
+				<li class="arma_lista"><button class="arma_botao" id="pedraP2" value="1">Pedra</button></li>
+				<li class="arma_lista"><button class="arma_botao" id="papelP2" value="2">Papel</button></li>
+				<li class="arma_lista"><button class="arma_botao" id="tesouraP2" value="3">Tesoura</button></li>
+			</ul>
+		</section>
+
+		<button class="valendo" id="confere">Valendo</button>
+
+		<section class="resultado">
+			<p>O vencedor foi o Player: </p>
+			<p id="vencedor"></p>
+		</section>
+	</main>
+</body>
+</html>

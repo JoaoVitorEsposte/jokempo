@@ -1,0 +1,55 @@
+.cabecalho{
+	margin-left: 30vw;
+	margin-top: 1vw;
+}
+
+.titulo{
+	font-size: 4em;
+	margin-bottom: 0.4em;
+}
+
+.subtitulo{
+	font-size: 2em;
+}
+
+.batalha{
+
+}
+
+.player{
+	max-width: 33vw;
+	display: inline-block;
+	padding: 1.4em;
+}
+
+.texto_player{
+	font-size: 1.2em;
+	margin-bottom: 0.8em;
+}
+
+.lista_player{
+
+}
+
+.arma_lista{
+	margin-bottom: 0.6em;
+}
+
+.arma_botao{
+	font-size: 1.07em;
+}
+
+.arma_botao:{
+
+}
+
+.valendo{
+	display: block;
+	font-size: 1.2em;
+	margin: 2em 0 1em 25em;
+}
+
+.resultado{
+	margin: 3vw 0 0 32vw;
+	font-size: 1.3em;
+}
